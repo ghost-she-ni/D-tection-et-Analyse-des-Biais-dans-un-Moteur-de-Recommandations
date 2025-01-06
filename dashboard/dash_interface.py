@@ -11,10 +11,11 @@ import matplotlib.pyplot as plt
 from io import BytesIO
 import base64
 import seaborn as sns
+import os
 
 # Chargement des données
 # Remplacez par vos fichiers ou sources réelles
-data_path = "../data/"
+data_path = os.path.join(os.getcwd(), "data/")
 ratings = pd.read_csv(data_path + "cleaned_ratings.csv")
 movies = pd.read_csv(data_path + "cleaned_movies.csv")
 users = pd.read_csv(data_path + "cleaned_users.csv")
