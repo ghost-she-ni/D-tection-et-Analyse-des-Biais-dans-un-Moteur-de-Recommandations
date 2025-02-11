@@ -443,5 +443,5 @@ def update_chi2_results(pathname):
 
 # Lancer l'application
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 8050))  # Render définit la variable d'environnement PORT
-    app.run_server(host="127.0.0.1", port=port, debug=True)
+    port = int(os.environ.get("PORT", 10000))  # Render définit la variable d'environnement PORT
+    app.run_server(host="0.0.0.0", port=port, debug=True)
