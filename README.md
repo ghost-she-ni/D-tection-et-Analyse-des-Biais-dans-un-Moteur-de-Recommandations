@@ -53,7 +53,7 @@ Le projet exploite des compétences en machine learning, bases de données et vi
    - Importez les données nettoyées.
 4. Lancez l’application :
    ```bash
-   streamlit run app.py
+   python ./dashboard/dash_interface.py
    ```
 
 ## Utilisation
